@@ -5,7 +5,7 @@ public class QuickSort {
 
     public static void quickSort(int[] arr, int left, int right){
         if (left < right) {
-            int pivot = partition(arr, left, right);
+            int pivot = partition_(arr, left, right);
             quickSort(arr, left, pivot - 1);
             quickSort(arr, pivot + 1, right);
         }
@@ -23,6 +23,32 @@ public class QuickSort {
             swap(arr, pre, right);
         }
         return pre;
+    }
+
+    public static int partition_(int[] arr, int left, int right ){
+        int bigger = left;
+        int pivot = arr[right];
+        // 找到第一个bigger
+        int j = left;
+        for (; j <= right; ++j){
+            if(arr[j] > arr[right]){
+                bigger = j;
+                break;
+            }
+        }
+        if(bigger == left && j-1 == right){
+            return right;
+        }
+        for(int i = j; i < right; ++i){
+            if(arr[i] <= pivot){
+                swap(arr, i, bigger);
+                bigger++;
+            }
+        }
+        if(bigger != right){
+            swap(arr, bigger, right);
+        }
+        return bigger;
     }
 
     public int[] plusOne(int[] digits) {

@@ -98,10 +98,10 @@ public class GuiBin {
 //    }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{0, 2, 4, 1, 4, 5, 3, 9, 0};
+
         //sortWithOutResur(arr);
         //int[] temp = new int[arr.length];
         // guibin(arr, 0, arr.length - 1, temp);
-        System.out.println(arr);
+        //System.out.println(arr);
     }
 }

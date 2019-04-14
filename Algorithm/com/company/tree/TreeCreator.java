@@ -45,6 +45,62 @@ public class TreeCreator {
         return head;
     }
 
+    public static int Fibonacci(int n) {
+        int i = 0;
+        if(n == 0){
+            return 0;
+        }
+        int j = 1;
+        int index = 0;
+        while (j != n){
+            index ++;
+            int tem = i;
+            i = j;
+            j = tem+i;
+        }
+        return index + 1;
+    }
+
+    public static int JumpFloorII(int target) {
+        HashMap<Integer, Integer> map = new HashMap();
+        if(target == 0){
+            map.put(0, 0);
+            return 0;
+        }
+        if(target == 1){
+            map.put(1, 1);
+            return 1;
+        }
+        if(target == 2){
+            map.put(2, 2);
+            return 2;
+        }
+        return 2 * JumpFloorII(target - 1);
+    }
+
+
+    public static int[] reOrderArray(int [] array) {
+        int i = 0;
+        int j = 0;
+        while((array[i] & 1) != 0){
+            i ++;
+        }
+        j = i+1;
+        while (j < array.length){
+            if((array[j] & 1) != 0){
+                int temp = array[j];
+                for(int x = j; x > i; --x){
+                    array[x] = array[x-1];
+                }
+                array[i] = temp;
+                ++i;
+            }else{
+                ++j;
+            }
+        }
+        return array;
+    }
+
     /**
      * 通过中序遍历+后序遍历重构树, 和上面的类似思想，都是通过找到head节点后，找到每个遍历序中的左右子树的遍历长度，依次递归
      * @return
@@ -116,18 +172,20 @@ public class TreeCreator {
 
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String s = scan.nextLine();
-        String s2 = scan.nextLine();
-        String[] s1 = s.split(" ");
-        String[] s11 = s2.split(" ");
-        int[] arr1 = new int[s1.length];
-        int[] arr2 = new int[s11.length];
-        for (int i = 0; i < arr1.length; ++i) {
-            arr1[i] = Integer.parseInt(s1[i]);
-            arr2[i] = Integer.parseInt(s11[i]);
-        }
-        node head = preposOrder(arr1, arr2);
+//        Scanner scan = new Scanner(System.in);
+//        String s = scan.nextLine();
+//        String s2 = scan.nextLine();
+//        String[] s1 = s.split(" ");
+//        String[] s11 = s2.split(" ");
+//        int[] arr1 = new int[s1.length];
+//        int[] arr2 = new int[s11.length];
+//        for (int i = 0; i < arr1.length; ++i) {
+//            arr1[i] = Integer.parseInt(s1[i]);
+//            arr2[i] = Integer.parseInt(s11[i]);
+//        }
+        //node head = preposOrder(arr1, arr2);
+        int[] array = {2, 1};
+        reOrderArray(array);
         System.out.println();
     }
 }
