@@ -2,39 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcbf3043-780b-4825-b2d1-02f48a1e85f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/utilForMath/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/Leetcode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/bit/BitMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/boyi/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/dp/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/saimawangoj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/com/company/saimawangoj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/sort/ArrayUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/sort/GuiBin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/sort/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/string/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/tree/CalcForTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/tree/TreeCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/com/company/xuanzeti/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo" beforeDir="false" afterPath="$PROJECT_DIR$/algo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/java/13_sorts/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/java/13_sorts/CountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/java/17_skiplist/SkipList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/java/17_skiplist/SkipList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/Leetcode$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/Leetcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/bit/BitMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/boyi/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/dp/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/saimawangoj/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amory/com/company/saimawangoj/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/sort/ArrayUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/sort/GuiBin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/string/Main$StringComparetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/string/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/tree/CalcForTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/tree/TreeCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amory/com/company/xuanzeti/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,18 +25,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/com/company/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/com/company/string/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="7543">
               <caret line="1039" column="26" selection-start-line="1039" selection-start-column="24" selection-end-line="1039" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,11 +70,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherHardKnowlege/记一次偶然的发现java 宝藏的激动时光.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-373" />
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pic/my.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -123,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/com/company/dp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6954">
+            <state relative-caret-position="6992">
               <caret line="370" column="36" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
               <folding>
                 <element signature="e#166#167#0" expanded="true" />
@@ -196,7 +165,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5681">
+            <state relative-caret-position="5719">
               <caret line="333" column="26" selection-start-line="333" selection-start-column="15" selection-end-line="333" selection-end-column="26" />
               <folding>
                 <element signature="e#11079#11080#0" expanded="true" />
@@ -257,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/com/company/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/Leetcode.java" />
         <option value="$PROJECT_DIR$/src/com/company/string/Main.java" />
+        <option value="$PROJECT_DIR$/OtherHardKnowlege/记一次偶然的发现java 宝藏的激动时光.md" />
       </list>
     </option>
   </component>
@@ -276,6 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,14 +258,12 @@
             <path>
               <item name="amory" type="b2602c69:ProjectViewProjectNode" />
               <item name="amory" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherHardKnowlege" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,12 +271,17 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562803508755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562816957736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -443,15 +418,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60890305" visible="true" weight="0.17167382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60890305" visible="true" weight="0.17381974" />
       <window_info id="Structure" order="1" sideWeight="0.3901274" side_tool="true" weight="0.0686901" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50196594" side_tool="true" weight="0.18317358" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25159237" />
@@ -459,10 +434,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.19639066" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.19553806" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" weight="0.16312057" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2430998" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -842,13 +818,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="869" column="16" selection-start-line="869" selection-start-column="16" selection-end-line="869" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread/Test.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1226,9 +1195,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/com/company/string/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7543">
+          <caret line="1039" column="26" selection-start-line="1039" selection-start-column="24" selection-end-line="1039" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#strStr#0;class#Main#0" />
+            <element signature="method#getNext#0;class#Main#0" />
+            <element signature="method#beibao#0;class#Main#0" />
+            <element signature="method#sumInstring#0;class#Main#0" />
+            <element signature="method#deleteKString#0;class#Main#0" />
+            <element signature="method#isReverse#0;class#Main#0" />
+            <element signature="method#isRotation#0;class#Main#0" />
+            <element signature="method#replaceSpecial#0;class#Main#0" />
+            <element signature="method#returnIndexForString#0;class#Main#0" />
+            <element signature="method#getCharAtString#0;class#Main#0" />
+            <element signature="method#replaceStringInWord#0;class#Main#0" />
+            <element signature="method#reverseString#0;class#Main#0" />
+            <element signature="method#rotateWordInString#0;class#Main#0" />
+            <element signature="method#reverseString#1;class#Main#0" />
+            <element signature="method#reverseSpcialLenInString#0;class#Main#0" />
+            <element signature="method#minDisForTwoStringInArray#0;class#Main#0" />
+            <element signature="method#minDisforTwoStringInArray#0;class#Main#0" />
+            <element signature="method#minCharactorsForParlindrome#0;class#Main#0" />
+            <element signature="method#calValForString#0;class#Main#0" />
+            <element signature="method#oneBeforeZero#0;class#Main#0" />
+            <element signature="class#StringComparetor#0;class#Main#0" />
+            <element signature="method#minDicOrder#0;class#Main#0" />
+            <element signature="method#getNumber#0;class#Main#0" />
+            <element signature="method#getSum#0;class#Main#0" />
+            <element signature="method#minNumberForParlindrome#0;class#Main#0" />
+            <element signature="method#maxLengthNoRepeatInString#0;class#Main#0" />
+            <element signature="method#maxLengthNoRepeatInStringV2#0;class#Main#0" />
+            <element signature="method#minContainSubStringLength#0;class#Main#0" />
+            <element signature="method#minForDivPariliondrome#0;class#Main#0" />
+            <element signature="method#stringMatch#0;class#Main#0" />
+            <element signature="method#match#0;class#Main#0" />
+            <element signature="method#swap#0;class#Main#0" />
+            <element signature="method#solution#0;class#Main#0" />
+            <element signature="method#solution1#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherHardKnowlege/记一次分库分表的数据库阿里云远程实例下的删表操作.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/com/company/dp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6954">
+        <state relative-caret-position="6992">
           <caret line="370" column="36" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
           <folding>
             <element signature="e#166#167#0" expanded="true" />
@@ -1291,7 +1307,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5681">
+        <state relative-caret-position="5719">
           <caret line="333" column="26" selection-start-line="333" selection-start-column="15" selection-end-line="333" selection-end-column="26" />
           <folding>
             <element signature="e#11079#11080#0" expanded="true" />
@@ -1300,57 +1316,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/com/company/string/Main.java">
+    <entry file="file://$PROJECT_DIR$/OtherHardKnowlege/记一次偶然的发现java 宝藏的激动时光.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="1039" column="26" selection-start-line="1039" selection-start-column="24" selection-end-line="1039" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#strStr#0;class#Main#0" />
-            <element signature="method#getNext#0;class#Main#0" />
-            <element signature="method#beibao#0;class#Main#0" />
-            <element signature="method#sumInstring#0;class#Main#0" />
-            <element signature="method#deleteKString#0;class#Main#0" />
-            <element signature="method#isReverse#0;class#Main#0" />
-            <element signature="method#isRotation#0;class#Main#0" />
-            <element signature="method#replaceSpecial#0;class#Main#0" />
-            <element signature="method#returnIndexForString#0;class#Main#0" />
-            <element signature="method#getCharAtString#0;class#Main#0" />
-            <element signature="method#replaceStringInWord#0;class#Main#0" />
-            <element signature="method#reverseString#0;class#Main#0" />
-            <element signature="method#rotateWordInString#0;class#Main#0" />
-            <element signature="method#reverseString#1;class#Main#0" />
-            <element signature="method#reverseSpcialLenInString#0;class#Main#0" />
-            <element signature="method#minDisForTwoStringInArray#0;class#Main#0" />
-            <element signature="method#minDisforTwoStringInArray#0;class#Main#0" />
-            <element signature="method#minCharactorsForParlindrome#0;class#Main#0" />
-            <element signature="method#calValForString#0;class#Main#0" />
-            <element signature="method#oneBeforeZero#0;class#Main#0" />
-            <element signature="class#StringComparetor#0;class#Main#0" />
-            <element signature="method#minDicOrder#0;class#Main#0" />
-            <element signature="method#getNumber#0;class#Main#0" />
-            <element signature="method#getSum#0;class#Main#0" />
-            <element signature="method#minNumberForParlindrome#0;class#Main#0" />
-            <element signature="method#maxLengthNoRepeatInString#0;class#Main#0" />
-            <element signature="method#maxLengthNoRepeatInStringV2#0;class#Main#0" />
-            <element signature="method#minContainSubStringLength#0;class#Main#0" />
-            <element signature="method#minForDivPariliondrome#0;class#Main#0" />
-            <element signature="method#stringMatch#0;class#Main#0" />
-            <element signature="method#match#0;class#Main#0" />
-            <element signature="method#swap#0;class#Main#0" />
-            <element signature="method#solution#0;class#Main#0" />
-            <element signature="method#solution1#0;class#Main#0" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherHardKnowlege/记一次分库分表的数据库阿里云远程实例下的删表操作.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherHardKnowlege/记一次偶然的发现java 宝藏的激动时光.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-373" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pic/my.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
