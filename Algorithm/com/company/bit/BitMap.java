@@ -20,34 +20,11 @@ public class BitMap {
 
     }
 
-    public static int maxSubArray(int[] nums) {
-        int max = 0;
-        int cursum = 0;
-        for(int i = 0; i < nums.length; ++i){
-            cursum += nums[i];
-            if (cursum < 0){
-                cursum = 0;
-            }else {
-                max = Math.max(max, cursum);
-            }
-        }
-        return max;
-    }
-
     /**
      * 布隆过滤器 -- 宁可错杀三千不可漏杀一个，会有失误率,
      * 有一些场景：比如类黑名单数据结构的设计
-     * @param args
+     * @param arr
      * @return
      */
-
-
-    public static void main(String[] args) {
-        int a = 2;
-        int b = 3;
-        System.out.println(3 & 1);
-        int[] arr = new int[]{-2,1,-3,4,-1,2,1,-5,4};
-        System.out.println(maxSubArray(arr));
-    }
 
 }

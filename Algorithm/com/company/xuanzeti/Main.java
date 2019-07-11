@@ -1,6 +1,5 @@
 package com.company.xuanzeti;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -16,28 +15,6 @@ public class Main {
 
     }
 
-    public static int minMove(int[][] arr){
-        int[][] dp = new int[arr.length][arr[0].length];
-        int col = arr[0].length-1;
-        for (int i = arr.length - 1; i >= 0; --i){
-            dp[i][col] = i == arr.length-1 ?
-                    (0-arr[arr.length-1][col]) < 0 ? 0 : (0-arr[arr.length-1][col])
-                    : (dp[i+1][col] - arr[i][col]) < 0 ? 0 : (dp[i+1][col] - arr[i][col]);
-        }
-        int row = arr.length-1;
-        for(int i = col-1; i >= 0; --i ){
-            dp[row][i] = (dp[row][i+1]-arr[row][i]) < 0 ? 0 :(dp[row][i+1]-arr[row][i]);
-        }
-
-        for(int i = row-1; i >= 0; --i){
-            for (int j = col - 1; j >= 0; --j){
-                int right = (dp[i][j+1] - arr[i][j]) < 0 ? 0 : (dp[i][j+1] - arr[i][j]);
-                int bottom = (dp[i+1][j] - arr[i][j]) < 0 ? 0 : (dp[i+1][j] - arr[i][j]);
-                dp[i][j] = Math.min(bottom, right);
-            }
-        }
-        return dp[0][0];
-    }
     public static int pa(int[] arr){
         int[] dp = new int[arr.length];
         dp[0] = arr[0];

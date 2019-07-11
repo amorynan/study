@@ -6,14 +6,8 @@ import java.util.*;
 
 public class Main {
 
-    public String replaceSpace(StringBuffer str) {
-        String s =  str.toString();
-        String s1 = s.replaceAll(" ", "%20");
-        return s1;
-    }
-
     /**
-     * 找到string a 中完全匹配match 字符串的子字符串，并且返回string1中第一个, kmp
+     * 找到string a 中完全匹配match 字符串的子字符串，并且返回string1中第一个
      * @param haystack
      * @param needle
      * @return
@@ -1026,22 +1020,15 @@ public class Main {
         //System.out.println(solution1(11));
         //System.out.println(solution(to));
 
-//        int[] c = new int[] {1, 3 ,5, 6};
-//        int[] v = new int[] {2, 4, 5, 1};
-//        int w = 6;
-//        //beibao(c, v, w);
-//        //System.out.println(strStr("aabaaabaaac",
-//          //      "aabaaac"));
-//        System.out.println(Integer.MAX_VALUE);
-//        System.out.println(Integer.MIN_VALUE);
-//        reverse(Integer.parseInt("1534236469"));
-
-        Scanner in = new Scanner(System.in);
-        String[] s = in.nextLine().split(",");
-        String a = s[0];
-        String b = s[1];
-
-        System.out.println(min(a, b));
+        int[] c = new int[] {1, 3 ,5, 6};
+        int[] v = new int[] {2, 4, 5, 1};
+        int w = 6;
+        //beibao(c, v, w);
+        //System.out.println(strStr("aabaaabaaac",
+          //      "aabaaac"));
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+        reverse(Integer.parseInt("1534236469"));
 
     }
     public static int reverse(int x) {
@@ -1058,42 +1045,4 @@ public class Main {
         return flag ? res : -res;
 
     }
-
-    public static int min(String a, String b){
-        int[] dp = new int[a.length()];
-        char[] as = a.toCharArray();
-        char[] bs = b.toCharArray();
-//        int i = 0;
-//        int j = 0;
-        int min = Integer.MAX_VALUE;
-        dp[0] = Math.abs(as[0]-bs[0]);
-//        while (i < as.length && j <bs.length){
-//            min = Math.min(min, Math.abs(as[i]-bs[i]));
-//            for(int k = 0; k < i;++i){
-//                if(as[k] != as[i]){
-//                    min = Math.min(Math.abs(as[k]-bs[i])+Math.abs(as[i]-bs[k]), min);
-//                }
-//            }
-//            i++;
-//            j++;
-//        }
-        for (int i = 1; i < as.length; ++i){
-            dp[i] = dp[i-1]+Math.abs(as[i]-bs[i]);
-            for (int j = 0; j < i; ++j){
-                if(as[j] == bs[i]){
-                    int t = Math.abs(as[i]-bs[j])+1;
-                    if(t < dp[i]){
-                        swap(as, i, j);
-                        dp[i] = t;
-                    }
-
-                }
-            }
-        }
-        return dp[dp.length-1];
-
-    }
-
-
-
 }
